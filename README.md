@@ -1,4 +1,4 @@
-# HTML-CSS-course
+# HTML & CSS Basic course
 Basic course of HTML &amp; CSS
 
 ### Interest links
