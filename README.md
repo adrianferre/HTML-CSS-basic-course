@@ -4,7 +4,7 @@
 
 In this course we are going to cover the following topics
 
-1. Basic concepts and the first prototype in HTML.
+1. Basic concepts and the first prototype in HTML5.
 2. Tables, inputs, buttons, images, videos and validation with the W3C.
 3. Adding CSS in our project.
 4. CSS measure, colors and fonts.
