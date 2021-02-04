@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.cleaner {
+    clear: both;
+}
+
+
+.main-section{
+    margin: 100px 200px;
+    border: solid black 5px;
+    /* border-top: solid rgba(0,0,0,0.84) 1px;
+    border-bottom: solid rgba(0,0,0,0.84) 1px; */
+    padding: 0 50px;
+    width: 300px;
+}
+
+.introduction {
+    width: calc(100% / 3);
+    height: 50%;
+}
+
+.paragraph {
+    /* width: 200%; */
+}
+
+.sports article{
+    width: 50%;
+    float: left;
+    padding: 0 10%;
+}
+
+.sports picture{
+    display: block;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 60%;
+    max-width: 300px;
+}
+
+.sports img {
+    width: 100%;
+    display: block;
+}
+
+.sports h3{
+    text-align: center;
+}
+
+.sports p{
+    text-align: center;
+}
+
+

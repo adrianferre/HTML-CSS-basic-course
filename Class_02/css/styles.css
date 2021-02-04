@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400;900&display=swap");
+/* h1{
+    font-size: 6em;
+} */
+
+body {
+  font-family: "Londrina Solid", cursive;
+}
+
+.mariano {
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.87);
+}
+
+.pili {
+  font-style: italic;
+  font-size: 4em;
+  letter-spacing: 0.2em;
+}
+
+.paragraph {
+  font-size: 4em;
+  font-weight: 400;
+  text-decoration: line-through;
+  line-height: 2em;
+}
+
+.teacher-paragraph {
+    font-family: 'Roboto';
+    color: #1496ba;
+}
+
+.teacher-paragraph h3 {
+    font-size: 5em;
+}
+
+.teacher-paragraph h4 {
+    font-size: 3em;
+}
+
+.right {
+    color: gold;
+    text-align: right;
+}
+
