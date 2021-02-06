@@ -124,6 +124,29 @@ body {
   color: rgb(0, 123, 255);
 }
 
+/* IMAGES */
+
+.images article {
+  height: 400px;
+}
+
+.images div {
+  float: left;
+  width: 50%;
+}
+
+.images picture {
+  float: right;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.images img {
+  width: 100%;
+  margin-top: -50px;
+}
+
 /* MEDIA QUERIES */
 
 /* TABLET SIZE */
