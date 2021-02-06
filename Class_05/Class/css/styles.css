@@ -1,0 +1,52 @@
+.cleaner {
+  clear: both;
+}
+
+.wrapper {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.content div {
+  width: 25%;
+  float: left;
+  text-align: center;
+  font-size: 5em;
+}
+
+.content div:nth-child(1) {
+  background: red;
+}
+
+.content div:nth-child(2) {
+  background: blue;
+}
+
+.content div:nth-child(3) {
+  background: yellow;
+}
+
+.content div:nth-child(4) {
+  background: green;
+}
+
+
+/* MEDIA QUERIES */
+
+/* if from programing */
+@media (max-width: 768px) {  
+    .wrapper {
+        margin:0;
+    }
+    .content div {
+      font-size: 6em;
+      width: 50%;
+    }
+}
+
+/* if from programing */
+@media (max-width: 425px) {  
+    .content div {
+      width: 100%;
+    }
+}

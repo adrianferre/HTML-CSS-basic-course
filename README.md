@@ -4,15 +4,16 @@
 
 In this course we are going to cover the following topics
 
-1. Basic concepts and the first prototype in HTML5, inputs, buttons, images, videos and validation with the W3C.
+1. Basic concepts and the first prototype in HTML5, inputs, buttons, images and validation with the W3C.
 2. Adding CSS in our project, measure, colors and fonts.
 3. Box modeling I.
-4. Workshop and responsive.
-5. Box modeling II.
-6. Flexbox.
-7. Animations, transformations and transitions.
-8. Bootstrap.
-9. Upload to server.
+4. Workshop.
+5. Responsive design and media queries.
+6. Box modeling II.
+7. Flexbox.
+8. Animations, transformations and transitions.
+9. Bootstrap.
+10. Upload to server.
 
 ## Useful links
 

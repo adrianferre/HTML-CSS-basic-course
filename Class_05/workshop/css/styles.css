@@ -9,7 +9,6 @@ Grey background: rgb(248, 249, 250)
 Typography: rgb(33, 37, 41)
 */
 
-
 /* GENERAL */
 * {
   box-sizing: border-box;
@@ -76,7 +75,7 @@ body {
   text-align: center;
   margin-right: 18%;
   margin-left: 18%;
-  color:rgb(255,255,255,1);
+  color: rgb(255, 255, 255, 1);
   margin-top: 0;
 }
 
@@ -108,20 +107,83 @@ body {
 /* FEATURES */
 
 .features {
-    padding-top: 100px;
-    padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .features article {
-    float: left;
-    width: calc(100% / 3);
-    text-align: center;
-    padding-left: 2em;
-    padding-right: 2em;
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .features i {
-    font-size: 3em;
-    color: rgb(0, 123, 255);
+  font-size: 3em;
+  color: rgb(0, 123, 255);
 }
 
+/* MEDIA QUERIES */
+
+/* TABLET SIZE */
+@media (max-width: 768px) {
+    /* GENERAL */
+    .wrapper {
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+
+  /* HEADER */
+  .header {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  /* FEATURES */
+  .features article {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+/* MOBILE SIZE */
+@media (max-width: 425px) {
+  /* HEADER */
+  .header {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  /* MAIN */
+  .main {
+    padding-top: 95px;
+  }
+
+  .main h1 {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .main form {
+    width: 100%;
+  }
+
+  .main form input {
+    width: 100%;
+    margin: 0;
+  }
+
+  .main form button {
+    margin-top: 0.5em;
+    width: 100%;
+  }
+
+  /* FEATURES */
+
+  .features article {
+    float: none;
+    width: 100%;
+    margin-bottom: 5em;
+  }
+}
