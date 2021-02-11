@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+}
+
+/* .main-container {
+  background-color: red;
+  padding: 100px;
+  height: 2000px;
+}
+
+.secondary-container {
+  background-color: blue;
+  padding: 100px;
+  position: relative;
+  cursor: pointer;
+}
+
+.secondary-container:hover {
+    background-color: violet;
+} */
+
+/* .secondary-container:hover .content {
+  display: block;
+} */
+
+/* .content {
+  background-color: yellow;
+  width: 100px;
+  font-size: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+  display: none;
+} */
+
+/* 
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.secondary-content {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  position: fixed;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+  z-index: 10001;
+} */
+/* 
+.menu {
+  position: relative;
+}
+
+.menu:hover nav {
+  display: block;
+  box-shadow: 0px 0px 41px 24px rgba(0,0,0,0.51);
+}
+
+.menu nav {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  display: none;
+  padding-top: 5px;
+  background-color: violet;
+}
+
+.menu nav:hover {
+  display: block;
+}
+
+.menu nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu nav li {
+  font-size: 1em;
+  padding: 1em;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.menu nav li:hover {
+  background-color: lightgray;
+}
+
+.container {
+  position: relative;
+}
+
+.container button {
+  cursor: pointer;
+}
+
+.container:hover div {
+  display: block;
+}
+
+.container div {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  max-width: 200px;
+  background-color: lightgray;
+  border-radius: 8px;
+  padding: 1em;
+  display: none;
+}
+
+.container p {
+  margin: 0;
+} */
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: lightseagreen;
+    padding: 1em;
+}
+
+.header h2{
+    margin: 0;
+}
+
+p{
+    font-size: 10em;
+}
+
+button {
+    position: sticky;
+    top: 4em;
+    left: 0; 
+}
