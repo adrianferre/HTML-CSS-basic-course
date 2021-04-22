@@ -1,0 +1,37 @@
+.flex-container {
+    border: 5px solid red;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    /* align-items: center;
+    justify-content: center; */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: space-between; */
+}
+
+/* .flex-container > div:nth-child(even) {
+align-self: flex-end;
+} */
+
+/* if from programing */
+/* @media (max-width: 425px) {  
+    .flex-container {
+        flex-direction: column;
+    }
+} */
+
+.flex-item {
+    border: 5px solid blue;
+    font-size: 24px;
+    /* width: 100px; */
+}
+
+
+.sin-flex-container {
+    border: 5px solid red;
+}
+
+.sin-flex-item {
+    border: 5px solid blue;
+    font-size: 24px;
+}
