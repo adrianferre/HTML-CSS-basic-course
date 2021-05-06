@@ -11,9 +11,10 @@ In this course we are going to cover the following topics
 5. Responsive design and media queries.
 6. Box modeling II.
 7. Flexbox.
-8. Animations, transformations and transitions.
-9. Bootstrap.
-10. Upload to server.
+8. Workshop
+9. Animations, transformations and transitions.
+10. Bootstrap.
+11. Upload to server.
 
 ## Useful links
 
